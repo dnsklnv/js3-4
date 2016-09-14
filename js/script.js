@@ -65,7 +65,7 @@ var test = {
                 li.appendChild(label);
 
                 var input = document.createElement('input');
-                input.setAttribute('type', 'radio');
+                input.setAttribute('type', 'checkbox');
                 input.setAttribute('name', 'answers');
 
                 var span = document.createElement('span');
